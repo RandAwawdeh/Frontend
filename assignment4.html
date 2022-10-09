@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form>
+        <div>
+            <label for="username">UserName</label>
+            <input type="text" name="username" id="username" placeholder="username" maxlength="20">
+        </div>
+        <div>
+            <label for="">email</label>
+            <input type="email" name="email" placeholder="email">     
+        </div>
+        <div>
+            <label for="">Birth date</label>
+            <input type="date" name="bdate">  
+        </div>
+        <div>
+            <label for="rdatetime">Registration datetime</label>
+            <input type="datetime-local" name="rdatetime">
+        </div>
+        <div>
+            <label for="Age">Age</label>
+            <input type="number" min="0" name="Age" placeholder="Age">     
+        </div>
+        <div>
+            <label for="password">Passward</label>
+            <input type="password" name="password" placeholder="password">     
+        </div>
+        <div>
+            <label for="img">choose img to upload</label>
+            <input type="file" name="img" accept="image/*">
+        </div>
+        <label>courses:</label><br>
+        <select name="select">
+            <option disabled selected>select course</option>
+            <optgroup label="frontend">
+                <option value="css">css</option>
+                <option value="html">html</option>
+                <option value="javascript">javascript</option>
+            </optgroup>
+            <optgroup label="backend">
+                <option value="java">java</option>
+                <option value="c#">c#</option>
+                <option value=".net">.net</option>
+            </optgroup>
+        </select>
+        <div>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">female</label>
+        </div>
+        <textarea name="note" id="note" placeholder="Note" cols="100" rows="12"></textarea>
+        <a href="https://www.w3schools.com/default.asp" target="_blank">w3school</a>
+        <div>
+            <button formtarget="_blank" type="submit">signup</button>
+            <button type="reset">reset</button>
+        </div>
+    </form>
+
+</body>
+</html>
