@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    height: 100vh;
+    font-family: 'Courier New', monospace;
+}
+.layout{
+    display: flex;
+    background-color: #A5CBC6;
+}
+.layout .content{
+    padding: 12px;
+    width: 60%;
+    height: 96vh;
+    overflow: auto;
+}
+.navbar{
+    background-color: #74656E;
+    font-size: 30px;
+    overflow: auto;
+    overflow-x: hidden;
+    width: 30%;
+    height: 100vh;
+    padding: 20px;
+}
+.navbar nav{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #efe0e9;
+    border: 0;
+}
+
+.content{
+    background-color: #58ABAE;
+    width: 60%;
+    margin: 20px;
+    padding: 20px;
+}
+.cards-section{
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+
+}
+.card{
+    background-color: #f7f1dc;
+    width: 20%;
+    height: 80px;
+}
+
