@@ -1,11 +1,11 @@
 body{
     margin: 0;
-    height: 100vh;
     font-family: 'Courier New', monospace;
 }
 .layout{
     display: flex;
     background-color: #A5CBC6;
+    flex-direction: row;
 }
 .layout .content{
     padding: 12px;
@@ -13,7 +13,16 @@ body{
     height: 96vh;
     overflow: auto;
 }
-.navbar{
+.layout > .navbar{
+    background-color: #74656E;
+    padding: 20px 20px 20px 20px;
+    height: calc(100vh-40px);
+    overflow-y: auto;
+    overflow-x: hidden;
+    width: 30%;
+    max-width: 200px;
+}
+/*.navbar{
     background-color: #74656E;
     font-size: 30px;
     overflow: auto;
@@ -21,34 +30,37 @@ body{
     width: 30%;
     height: 100vh;
     padding: 20px;
-}
-.navbar nav{
+}*/
+.navbar > nav{
     display: flex;
     flex-direction: column;
     gap: 8px;
 }
 
-.navbar a{
+.navbar > nav > a{
     text-decoration: none;
     color: #efe0e9;
-    border: 0;
 }
 
 .content{
     background-color: #58ABAE;
     width: 60%;
-    margin: 20px;
-    padding: 20px;
+    height: calc(100vh - 40px);
+    /*margin: 20px;*/
+    padding: 20px 20px 20px 20px;
+    overflow: auto;
 }
 .cards-section{
     display: flex;
     gap: 12px;
     flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
 
 }
-.card{
+.cards-section > .card{
     background-color: #f7f1dc;
     width: 20%;
-    height: 80px;
+    height: 150px;
 }
 
