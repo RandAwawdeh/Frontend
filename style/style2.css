@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box; /*padding and borders aleady calculated, insted of calc for height*/
+}
 body{
     margin: 0;
     font-family: 'Courier New', monospace;
@@ -16,10 +19,12 @@ body{
 .layout > .navbar{
     background-color: #74656E;
     padding: 20px 20px 20px 20px;
-    height: calc(100vh-40px);
+    height: 100vh; /*height: calc(100vh-40px);*/
     overflow-y: auto;
     overflow-x: hidden;
-    width: 30%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    /*width: 30%;*/
     max-width: 200px;
 }
 /*.navbar{
@@ -44,23 +49,27 @@ body{
 
 .content{
     background-color: #58ABAE;
-    width: 60%;
-    height: calc(100vh - 40px);
+    height: 100vh;
     /*margin: 20px;*/
     padding: 20px 20px 20px 20px;
     overflow: auto;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
 }
 .cards-section{
     display: flex;
     gap: 12px;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: center;
 
 }
 .cards-section > .card{
     background-color: #f7f1dc;
     width: 20%;
     height: 150px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 150px;
 }
 
