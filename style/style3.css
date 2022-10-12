@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.dashbourd{
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    background-color: lightseagreen;
+    padding: 10;
+    gap: 5px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 1px solid lightskyblue;
+    padding: 10;
+    gap: 5px;
+}
+.col{
+    border: 1px solid lightcoral;
+    width: 200px;
+    padding: 5px;
+}
+.col-1{
+    flex: 1;
+    flex-basis: 150px;
+}
+.col-2{
+    flex: 2;
+    flex-basis: 150px;
+}
