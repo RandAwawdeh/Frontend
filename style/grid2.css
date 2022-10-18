@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.container{
+    display: grid;
+    border: 1px solid red;
+    padding: 10px;
+    height: 100vh;
+    grid-template-columns: 250px 30% 1fr;
+    grid-template-rows: 80px 300px 1frr 1fr 1fr 60px;
+    grid-template-areas: 
+    "header header header"
+    "header-img header-img"
+    "nav main main"
+    "nav banner banner"
+    "nav ad footer-img"
+    "footer footer footer"
+    ;
+}
+header{
+    grid-area: header;
+    background-color: aliceblue;
+}
+.header-img{
+    grid-area: header-img;
+    background-color: blue;
+}
