@@ -6,15 +6,14 @@ body{
 }
 main{
     display: flex;
-    height: 90vh;
+    height: 100vh;
 }
 .dashbourd{
     display: flex;
     flex-direction: column;
-    max-width: 900px;
-    background-color: maroon;
-    padding: 10px;
-    gap: 10px;
+    max-width: 2000px;
+    background-color: wheat;
+    padding: 5px;
     border: 1px solid lightsalmon;
     margin: auto;
 }
@@ -22,24 +21,32 @@ main{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 5px;
     border: 1px solid lightgoldenrodyellow;
-    padding: 10px;
+    padding: 5px;
 }
 .col{
-    border: 2px solid lightgreen;
-    padding: 8px;
+    border: 1px solid lightgreen;
+    padding: 5px;
+    flex: 1;
+    flex-basis: 20px;
 }
 .flex-col{
     display: flex;
     flex-direction: column;
     gap: 5px;
+    padding: 5px;
 }
 .flex-row{
-    border: 1px solid lightgoldenrodyellow;
-    padding: 10px;
+    border: 1px solid lightsteelblue;
+    padding: 5px;
 }
+
 .col-1{
     flex: 1;
     flex-basis: 50px;
+}
+.col-2{
+    flex: 2;
+    flex-basis: 100px;
 }
