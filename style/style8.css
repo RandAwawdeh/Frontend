@@ -17,194 +17,211 @@ main{
     display: grid; 
     grid-template-columns: repeat(18, 40fr); 
     grid-template-rows: repeat(10, 40px);
-    grid-gap: 0.1em;
+    grid-gap: 0.2rem;
     text-align: center;
     color: white;
-    gap: 2px;
     padding: 10px;
     flex: 1;
 }
 .H { 
     grid-area: 1 / 1 / 2 / 2;
-    background-color: crimson;  
+    background-color: crimson;
+    padding: 25%;
 }
 .Li{
     grid-area: 2 / 1 / 3 / 2;
     background-color: orange;
+    padding: 25%;
 }
 .Na{
     grid-area: 3 / 1 / 4 / 2;
     background-color: orange;
+    padding: 25%;
 }
 .K{
     grid-area: 4 / 1 / 5 / 2;
     background-color: orange;
+    padding: 25%;
 }
 .Rb{
     grid-area: 5 / 1 / 6 / 2;
     background-color: orange;
+    padding: 25%;
 }
 .Cs{
     grid-area: 6 / 1 / 7 / 2;
     background-color: orange;
+    padding: 25%;
 }
 .Fr{ 
     grid-area: 7 / 1 / 8 / 2;
     background-color: orange;
+    padding: 25%;
 }
 
 .Be {
     grid-area: 2 / 2 / 3 / 3;
     background-color: rgb(255, 85, 0);
+    padding: 25%;
 }
 .Mg{
     grid-area: 3 / 2 / 4 / 3;
     background-color: rgb(255, 85, 0);
+    padding: 25%;
 }
 .Ca{
     grid-area: 4 / 2 / 5 / 3;
     background-color: rgb(255, 13, 0);
+    padding: 25%;
 }
 .Sr{
     grid-area: 5 / 2 / 6 / 3;
     background-color: rgb(255, 13, 0);
+    padding: 25%;
 }
 .Ba{
     grid-area: 6 / 2 / 7 / 3;
     background-color: rgb(255, 13, 0);
+    padding: 25%;
 }
 .Ra{grid-area: 7 / 2 / 8 / 3;
     background-color: rgb(255, 13, 0);
+    padding: 25%;
 }
 
 .Sc{
     grid-area: 4 / 3 / 5 / 4;
     background-color: green;
+    padding: 25%;
 }
 .Y{
     grid-area: 5 / 3 / 6 / 4;
     background-color: green;
+    padding: 25%;
 }
 .n71{
     grid-area: 6 / 3 / 7 / 4;
     background-color: rgb(46, 44, 56);
+    padding: 25%;
 }
 
 .n103{
     grid-area: 7 / 3 / 8 / 4;
     background-color:  gray;
+    padding: 25%;
 }
 
-.Ti{grid-area: 4 / 4 / 5 / 5;}
-.Zr{grid-area: 5 / 4 / 6 / 5;}
-.Hf{grid-area: 6 / 4 / 7 / 5;}
-.Rf{grid-area: 7 / 4 / 8 / 5;}
-.V{grid-area: 4 / 5 / 5 / 6;}
-.Nb{grid-area: 5 / 5 / 6 / 6; }
-.Ta{grid-area: 6 / 5 / 7 / 6; }
-.Db{grid-area: 7 / 5 / 8 / 6; }
-.Cr{grid-area: 4 / 6 / 5 / 7; }
-.Mo{grid-area: 5 / 6 / 6 / 7; }
-.W{grid-area: 6 / 6 / 7 / 7;}
-.Sg{grid-area: 7 / 6 / 8 / 7;}
-.Mn{grid-area: 4 / 7 / 5 / 8;}
-.Tc{grid-area: 5 / 7 / 6 / 8;}
-.Fe{grid-area: 4 / 8 / 5 / 9;}
-.Ru{grid-area: 5 / 8 / 6 / 9;}
-.Re{grid-area: 6 / 7 / 7 / 8;}
-.Os{grid-area: 6 / 8 / 7 / 9;}
-.Bh{grid-area: 7 / 7 / 8 / 8;}
-.hs{grid-area: 7 / 8 / 8 / 9;}
-.Co{grid-area: 4 / 9 / 5 / 10;}
-.Rh{grid-area: 5 / 9 / 6 / 10;}
-.Ir{grid-area: 6 / 9 / 7 / 10;}
-.Mt{grid-area: 7 / 9 / 8 / 10;}
-.Ni{grid-area: 4 / 10 / 5 / 11;}
-.Pd{grid-area: 5 / 10 / 6 / 11; }
-.Pt{grid-area: 6 / 10 / 7 / 11; }
-.Ds{grid-area: 7 / 10 / 8 / 11; }
-.Cu{grid-area: 4 / 11 / 5 / 12; }
-.Ag{grid-area: 5 / 11 / 6 / 12; }
-.Au{grid-area: 6 / 11 / 7 / 12; }
-.Rg{grid-area: 7 / 11 / 8 / 12; }
-.Zn{ grid-area: 4 / 12 / 5 / 13; }
-.Cd{ grid-area: 5 / 12 / 6 / 13; }
-.Hg{ grid-area: 6 / 12 / 7 / 13; }
-.Cn{ grid-area: 7 / 12 / 8 / 13; }
+.Zr{grid-area: 5 / 4 / 6 / 5; padding: 25%;}
+.Ti{grid-area: 4 / 4 / 5 / 5; padding: 25%;}
+.Hf{grid-area: 6 / 4 / 7 / 5; padding: 25%;}
+.Rf{grid-area: 7 / 4 / 8 / 5; padding: 25%;}
+.V{grid-area: 4 / 5 / 5 / 6; padding: 25%;}
+.Nb{grid-area: 5 / 5 / 6 / 6;  padding: 25%;}
+.Ta{grid-area: 6 / 5 / 7 / 6;  padding: 25%;}
+.Db{grid-area: 7 / 5 / 8 / 6;  padding: 25%;}
+.Cr{grid-area: 4 / 6 / 5 / 7;  padding: 25%;}
+.Mo{grid-area: 5 / 6 / 6 / 7;  padding: 25%;}
+.W{grid-area: 6 / 6 / 7 / 7; padding: 25%;}
+.Sg{grid-area: 7 / 6 / 8 / 7; padding: 25%;}
+.Mn{grid-area: 4 / 7 / 5 / 8; padding: 25%;}
+.Tc{grid-area: 5 / 7 / 6 / 8; padding: 25%;}
+.Fe{grid-area: 4 / 8 / 5 / 9; padding: 25%;}
+.Ru{grid-area: 5 / 8 / 6 / 9; padding: 25%;}
+.Re{grid-area: 6 / 7 / 7 / 8; padding: 25%;}
+.Os{grid-area: 6 / 8 / 7 / 9; padding: 25%;}
+.Bh{grid-area: 7 / 7 / 8 / 8; padding: 25%;}
+.hs{grid-area: 7 / 8 / 8 / 9; padding: 25%;}
+.Co{grid-area: 4 / 9 / 5 / 10; padding: 25%;}
+.Rh{grid-area: 5 / 9 / 6 / 10; padding: 25%;}
+.Ir{grid-area: 6 / 9 / 7 / 10; padding: 25%;}
+.Mt{grid-area: 7 / 9 / 8 / 10; padding: 25%;}
+.Ni{grid-area: 4 / 10 / 5 / 11; padding: 25%;}
+.Pd{grid-area: 5 / 10 / 6 / 11; padding: 25%;}
+.Pt{grid-area: 6 / 10 / 7 / 11; padding: 25%;}
+.Ds{grid-area: 7 / 10 / 8 / 11; padding: 25%;}
+.Cu{grid-area: 4 / 11 / 5 / 12; padding: 25%;}
+.Ag{grid-area: 5 / 11 / 6 / 12; padding: 25%;}
+.Au{grid-area: 6 / 11 / 7 / 12; padding: 25%;}
+.Rg{grid-area: 7 / 11 / 8 / 12; padding: 25%;}
+.Zn{ grid-area: 4 / 12 / 5 / 13; padding: 25%;}
+.Cd{ grid-area: 5 / 12 / 6 / 13; padding: 25%;}
+.Hg{ grid-area: 6 / 12 / 7 / 13; padding: 25%;}
+.Cn{ grid-area: 7 / 12 / 8 / 13; padding: 25%;}
+
+.Nh { grid-area: 7 / 13 / 8 / 14; padding: 25%;}
+.Tl { grid-area: 6 / 13 / 7 / 14; padding: 25%;}
+.In { grid-area: 5 / 13 / 6 / 14; padding: 25%;}
+.Ga { grid-area: 4 / 13 / 5 / 14; padding: 25%;}
+.Al { grid-area: 3 / 13 / 4 / 14; padding: 25%;}
+.B { grid-area: 2 / 13 / 3 / 14; padding: 25%;}
+.C { grid-area: 2 / 14 / 3 / 15; padding: 25%;}
+.Si { grid-area: 3 / 14 / 4 / 15; padding: 25%;}
+.Ge { grid-area: 4 / 14 / 5 / 15; padding: 25%;}
+.Sn { grid-area: 5 / 14 / 6 / 15; padding: 25%;}
+.Pb { grid-area: 6 / 14 / 7 / 15; padding: 25%;}
+.Fl { grid-area: 7 / 14 / 8 / 15; padding: 25%;}
+.Zn { grid-area: 4 / 12 / 5 / 13; padding: 25%;}
+.N { grid-area: 2 / 15 / 3 / 16; padding: 25%;}
+.P { grid-area: 3 / 15 / 4 / 16; padding: 25%;}
+.As { grid-area: 4 / 15 / 5 / 16; padding: 25%;}
+.Sb { grid-area: 5 / 15 / 6 / 16; padding: 25%;}
+.Bi { grid-area: 6 / 15 / 7 / 16; padding: 25%;}
+.Mc { grid-area: 7 / 15 / 8 / 16; padding: 25%;}
+.O { grid-area: 2 / 16 / 3 / 17; padding: 25%;}
+.S { grid-area: 3 / 16 / 4 / 17; padding: 25%;}
+.Se { grid-area: 4 / 16 / 5 / 17; padding: 25%;}
+.Te { grid-area: 5 / 16 / 6 / 17; padding: 25%;}
+.Po { grid-area: 6 / 16 / 7 / 17; padding: 25%;}
+.Lv { grid-area: 7 / 16 / 8 / 17; padding: 25%;}
+.F { grid-area: 2 / 17 / 3 / 18; padding: 25%;}
+.Cl { grid-area: 3 / 17 / 4 / 18; padding: 25%;}
+.Br { grid-area: 4 / 17 / 5 / 18; padding: 25%;}
+.I { grid-area: 5 / 17 / 6 / 18; padding: 25%;}
+.At { grid-area: 6 / 17 / 7 / 18; padding: 25%;}
+.Ts { grid-area: 7 / 17 / 8 / 18; padding: 25%;}
+.Ne { grid-area: 2 / 18 / 3 / 19; padding: 25%;}
+.He { grid-area: 1 / 18 / 2 / 19; padding: 25%;}
+.Ar { grid-area: 3 / 18 / 4 / 19; padding: 25%;}
+.Kr { grid-area: 4 / 18 / 5 / 19; padding: 25%;}
+.Xe { grid-area: 5 / 18 / 6 / 19; padding: 25%;}
+.Rn { grid-area: 6 / 18 / 7 / 19; padding: 25%;}
+.Og { grid-area: 7 / 18 / 8 / 19; padding: 25%;}
+
+.La { grid-area: 9 / 4 / 10 / 5; padding: 25%;}
+.Ce { grid-area: 9 / 5 / 10 / 6; padding: 25%;}
+.Pr { grid-area: 9 / 6 / 10 / 7; padding: 25%;}
+.Nd { grid-area: 9 / 7 / 10 / 8; padding: 25%;}
+.Pm { grid-area: 9 / 8 / 10 / 9; padding: 25%;}
+.Sm { grid-area: 9 / 9 / 10 / 10; padding: 25%;}
+.Eu { grid-area: 9 / 10 / 10 / 11; padding: 25%;}
+.Gd { grid-area: 9 / 11 / 10 / 12; padding: 25%;}
+.Tb { grid-area: 9 / 12 / 10 / 13; padding: 25%;}
+.Dy { grid-area: 9 / 13 / 10 / 14; padding: 25%;}
+.Ho { grid-area: 9 / 14 / 10 / 15; padding: 25%;}
+.Er { grid-area: 9 / 15 / 10 / 16; padding: 25%;}
+.Tm { grid-area: 9 / 16 / 10 / 17; padding: 25%;}
+.Yb { grid-area: 9 / 17 / 10 / 18; padding: 25%;}
+.Lu { grid-area: 9 / 18 / 10 / 19; padding: 25%;}
+
+.Ac { grid-area: 10 / 4 / 11 / 5; padding: 25%;}
+.Th { grid-area: 10 / 5 / 11 / 6; padding: 25%;}
+.Pa { grid-area: 10 / 6 / 11 / 7; padding: 25%;}
+.U { grid-area: 10 / 7 / 11 / 8; padding: 25%;}
+.Np { grid-area: 10 / 8 / 11 / 9; padding: 25%;}
+.Pu { grid-area: 10 / 9 / 11 / 10; padding: 25%;}
+.Am { grid-area: 10 / 10 / 11 / 11; padding: 25%;}
+.Cm { grid-area: 10 / 11 / 11 / 12; padding: 25%;}
+.Bk { grid-area: 10 / 12 / 11 / 13; padding: 25%;}
+.Cf { grid-area: 10 / 13 / 11 / 14; padding: 25%;}
+.Es { grid-area: 10 / 14 / 11 / 15; padding: 25%;}
+.Fm { grid-area: 10 / 15 / 11 / 16; padding: 25%;}
+.Md { grid-area: 10 / 16 / 11 / 17; padding: 25%;}
+.No { grid-area: 10 / 17 / 11 / 18; padding: 25%;}
+.Lr { grid-area: 10 / 18 / 11 / 19; padding: 25%;}
+
 .green{
     background-color: green;
 }
-.Nh { grid-area: 7 / 13 / 8 / 14; }
-.Tl { grid-area: 6 / 13 / 7 / 14; }
-.In { grid-area: 5 / 13 / 6 / 14; }
-.Ga { grid-area: 4 / 13 / 5 / 14; }
-.Al { grid-area: 3 / 13 / 4 / 14; }
-.B { grid-area: 2 / 13 / 3 / 14; }
-.C { grid-area: 2 / 14 / 3 / 15; }
-.Si { grid-area: 3 / 14 / 4 / 15; }
-.Ge { grid-area: 4 / 14 / 5 / 15; }
-.Sn { grid-area: 5 / 14 / 6 / 15; }
-.Pb { grid-area: 6 / 14 / 7 / 15; }
-.Fl { grid-area: 7 / 14 / 8 / 15; }
-.Zn { grid-area: 4 / 12 / 5 / 13; }
-.N { grid-area: 2 / 15 / 3 / 16; }
-.P { grid-area: 3 / 15 / 4 / 16; }
-.As { grid-area: 4 / 15 / 5 / 16; }
-.Sb { grid-area: 5 / 15 / 6 / 16; }
-.Bi { grid-area: 6 / 15 / 7 / 16; }
-.Mc { grid-area: 7 / 15 / 8 / 16; }
-.O { grid-area: 2 / 16 / 3 / 17; }
-.S { grid-area: 3 / 16 / 4 / 17; }
-.Se { grid-area: 4 / 16 / 5 / 17; }
-.Te { grid-area: 5 / 16 / 6 / 17; }
-.Po { grid-area: 6 / 16 / 7 / 17; }
-.Lv { grid-area: 7 / 16 / 8 / 17; }
-.F { grid-area: 2 / 17 / 3 / 18; }
-.Cl { grid-area: 3 / 17 / 4 / 18; }
-.Br { grid-area: 4 / 17 / 5 / 18; }
-.I { grid-area: 5 / 17 / 6 / 18; }
-.At { grid-area: 6 / 17 / 7 / 18; }
-.Ts { grid-area: 7 / 17 / 8 / 18; }
-.Ne { grid-area: 2 / 18 / 3 / 19; }
-.He { grid-area: 1 / 18 / 2 / 19; }
-.Ar { grid-area: 3 / 18 / 4 / 19; }
-.Kr { grid-area: 4 / 18 / 5 / 19; }
-.Xe { grid-area: 5 / 18 / 6 / 19; }
-.Rn { grid-area: 6 / 18 / 7 / 19; }
-.Og { grid-area: 7 / 18 / 8 / 19; }
-
-.La { grid-area: 9 / 4 / 10 / 5;}
-.Ce { grid-area: 9 / 5 / 10 / 6; }
-.Pr { grid-area: 9 / 6 / 10 / 7; }
-.Nd { grid-area: 9 / 7 / 10 / 8; }
-.Pm { grid-area: 9 / 8 / 10 / 9; }
-.Sm { grid-area: 9 / 9 / 10 / 10; }
-.Eu { grid-area: 9 / 10 / 10 / 11; }
-.Gd { grid-area: 9 / 11 / 10 / 12; }
-.Tb { grid-area: 9 / 12 / 10 / 13; }
-.Dy { grid-area: 9 / 13 / 10 / 14; }
-.Ho { grid-area: 9 / 14 / 10 / 15; }
-.Er { grid-area: 9 / 15 / 10 / 16; }
-.Tm { grid-area: 9 / 16 / 10 / 17; }
-.Yb { grid-area: 9 / 17 / 10 / 18; }
-.Lu { grid-area: 9 / 18 / 10 / 19; }
-
-.Ac { grid-area: 10 / 4 / 11 / 5; }
-.Th { grid-area: 10 / 5 / 11 / 6; }
-.Pa { grid-area: 10 / 6 / 11 / 7; }
-.U { grid-area: 10 / 7 / 11 / 8; }
-.Np { grid-area: 10 / 8 / 11 / 9; }
-.Pu { grid-area: 10 / 9 / 11 / 10; }
-.Am { grid-area: 10 / 10 / 11 / 11; }
-.Cm { grid-area: 10 / 11 / 11 / 12; }
-.Bk { grid-area: 10 / 12 / 11 / 13; }
-.Cf { grid-area: 10 / 13 / 11 / 14; }
-.Es { grid-area: 10 / 14 / 11 / 15; }
-.Fm { grid-area: 10 / 15 / 11 / 16; }
-.Md { grid-area: 10 / 16 / 11 / 17; }
-.No { grid-area: 10 / 17 / 11 / 18; }
-.Lr { grid-area: 10 / 18 / 11 / 19; }
-
 .seagreen{
     background-color: #0d9784;
 }
