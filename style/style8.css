@@ -5,6 +5,8 @@
 }
 body{
     margin: 0;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+
 }
 main{
     margin: auto;
@@ -15,13 +17,25 @@ main{
 }
 .container {
     display: grid; 
-    grid-template-columns: repeat(18, 40fr); 
+    grid-template-columns: repeat(18, 40px); 
     grid-template-rows: repeat(10, 40px);
     grid-gap: 0.2rem;
     text-align: center;
     color: white;
-    padding: 10px;
+    padding: 5px;
     flex: 1;
+}
+.head{
+    grid-area: 1 / 4 / 2 / 12;
+}
+h3{
+    color: black;
+    letter-spacing: 7px;
+}   
+h4{
+    color: darkgray;
+    font-size: small;
+    letter-spacing: 5px;
 }
 .H { 
     grid-area: 1 / 1 / 2 / 2;
