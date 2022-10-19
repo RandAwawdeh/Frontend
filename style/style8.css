@@ -1,5 +1,7 @@
 *{
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 body{
     margin: 0;
@@ -13,8 +15,8 @@ main{
 }
 .container {
     display: grid; 
-    grid-template-columns: repeat(18, 50fr); 
-    grid-template-rows:50px repeat(9, 50px);
+    grid-template-columns: repeat(18, 40fr); 
+    grid-template-rows: repeat(10, 40px);
     grid-gap: 0.1em;
     text-align: center;
     color: white;
