@@ -1,0 +1,13 @@
+p.red:hover{
+    background-color: red;
+}
+p.blue:hover{
+    background-color: blue;
+    
+}
+
+@media(max-width: 400px){
+    body{
+        background-color: lightgray;
+    }
+}

@@ -24,6 +24,7 @@ main{
     gap: 5px;
     border: 1px solid lightgoldenrodyellow;
     padding: 5px;
+    margin: auto;
 }
 .col{
     border: 1px solid lightgreen;
@@ -36,6 +37,7 @@ main{
     flex-direction: column;
     gap: 5px;
     padding: 5px;
+    margin: auto;
 }
 .flex-row{
     border: 1px solid lightsteelblue;
@@ -44,9 +46,9 @@ main{
 
 .col-1{
     flex: 1;
-    flex-basis: 50px;
+    flex-basis: 150px;
 }
 .col-2{
     flex: 2;
-    flex-basis: 100px;
+    flex-basis: 200px;
 }
