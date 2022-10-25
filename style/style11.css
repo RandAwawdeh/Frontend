@@ -19,9 +19,9 @@
 p{
     font-family: "Reenie Beanie", cursive;
 }
-::selection{
-    columns: ;
-    background-color: ;
+p::selection{
+    color: var(--pink);
+    background-color: var(--rose);
 }
 /*header*/
 header{
@@ -63,7 +63,10 @@ header{
 .navigation a:hover{
     color: var(--dark-pink)
 }
-
+.logo::selection{
+    color: #FDB10B;
+    background-color: var(--light-blue);
+}
 /*main*/
 img{
     width: 100%;
@@ -123,7 +126,7 @@ section{
 .social-icons a{
     color: var(--white);
     font-size: 1.7rem;
-    margin-inline-start: 10px;
+    margin-inline-start: 8px;
 }
 /*services*/
 .title{
