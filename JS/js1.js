@@ -10,4 +10,9 @@ onload=function(){
     var input = document.getElementById('search')
     input.style.backgroundColor='darkgray'
     input.style.fontSize='25px'
+
+    let x="we10"
+    let y=10
+    console.log(y*x)
+
 }
